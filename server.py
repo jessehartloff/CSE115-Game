@@ -36,5 +36,4 @@ def static(file):
 
 
 eventlet.wsgi.server(eventlet.listen(('', 8080)), bottle.default_app())
-bottle.run(host="0.0.0.0", port=8080, debug=True)
 
